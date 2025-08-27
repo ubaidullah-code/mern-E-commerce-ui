@@ -10,7 +10,7 @@ import ProductFilter from "@/components/shopping-view/filter";
 import ShoppingProductTile from "@/components/shopping-view/product-title";
 import ProductDetailsDialog from "@/components/shopping-view/product-details";
 import { useToast } from "@/hooks/use-toast";
-import { GlobalContext } from "@/Context/Context";
+import { GlobalContext } from "@/Context/context";
 
 // API Functions
 async function fetchAllFilteredProductsAPI(params) {
@@ -218,5 +218,6 @@ function ShoppingListing({ user, cartItems = [], onCartUpdate }) {
     </div>
   );
 }
+
 
 export default ShoppingListing;
