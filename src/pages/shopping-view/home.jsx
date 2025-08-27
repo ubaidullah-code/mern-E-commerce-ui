@@ -10,7 +10,7 @@ import {
   Airplay, BabyIcon, ChevronLeftIcon, ChevronRightIcon, CloudLightning, Heater, Images,
   Shirt, ShirtIcon, ShoppingBasket, UmbrellaIcon, WashingMachine, WatchIcon,
 } from "lucide-react";
-import { GlobalContext } from "@/Context/Context";
+import { GlobalContext } from "@/Context/context";
 import api from "@/config/api";
 
 
