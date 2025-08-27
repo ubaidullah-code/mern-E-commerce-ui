@@ -7,13 +7,14 @@ import {
   InputOTPSlot
 } from '@/components/ui/input-otp';
 import { forgetPasswordFormConytrols } from '@/config';
-import {
-  sendOtp,
-  verifyOtp,
-  updatePassword,
-  setError,
-  resetForgetState
-} from '@/store/ForgetSlice/forget-slice';
+import { sendOtp, verifyOtp ,updatePassword ,setError, resetForgetState } from '@/store/ForgetSlice/Forget-Slice';
+// import {
+//   sendOtp,
+//   verifyOtp,
+//   updatePassword,
+//   setError,
+//   resetForgetState
+// } from '@/store/ForgetSlice/forget-slice.js';
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';

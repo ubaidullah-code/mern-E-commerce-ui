@@ -12,6 +12,7 @@ import ProductDetailsDialog from "@/components/shopping-view/product-details";
 import { useToast } from "@/hooks/use-toast";
 import { GlobalContext } from "@/Context/context";
 
+
 // API Functions
 async function fetchAllFilteredProductsAPI(params) {
   const query = new URLSearchParams(params);
@@ -218,6 +219,5 @@ function ShoppingListing({ user, cartItems = [], onCartUpdate }) {
     </div>
   );
 }
-
 
 export default ShoppingListing;
